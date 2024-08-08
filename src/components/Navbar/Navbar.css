@@ -1,0 +1,59 @@
+a{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+nav{
+    position: fixed;
+    background: var(--blue-color);
+    width: 1370px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 300;
+    padding-right: 32px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+}
+
+.nav-link{
+    padding-right: 50px;
+    transition: all 400ms ease;
+    color: white;
+}
+
+.nav-link:hover{
+    color: black;
+    transform: scale(1.20);
+}
+
+nav ul li a img{
+    width: 30px;
+    height: 30px;
+    transition: all 400ms ease;
+}
+.search:hover{
+    transform: scale(1.30);
+}
+
+.cart:hover{
+    transform: scale(1.30);
+}
+
+.list:hover{
+    transform: scale(1.30);
+}

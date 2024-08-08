@@ -1,0 +1,33 @@
+.arrow-img{
+    display: inline-block;
+            vertical-align: middle;
+            margin-right: 33rem;
+            
+}
+
+.title-h1{
+    display: inline-block;
+            vertical-align: middle;
+}
+
+.name-n{
+    background-color: #d9d9d9;
+    border: 0;
+    padding: 7px;
+    border-radius: 2px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+.blue {
+    background-color: blue;
+    color: white;
+}
+.grey {
+    background-color: grey;
+    color: white;
+}

@@ -1,0 +1,38 @@
+:root {
+  --blue-color: #4fb0b9;
+  --light-red-color: #ed7166;
+  --grey-color: #d9d9d9;
+  --purple-color: #eeccfc;
+  --light-pink-color: #fcf8f3;
+  --dark-pink-color: #f2c9c9;
+  --red-color: #eb4f3b;
+  --green-color: #65d050;
+}
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  /* background-color: black; */
+}
+
+.wrapper {
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+section .content-container{
+  display: flex;
+}
+
+html{
+  scroll-behavior: smooth;
+}

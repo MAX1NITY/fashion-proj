@@ -1,0 +1,36 @@
+.email{
+    border: 1px solid;
+    border-color: var(--blue-color);
+    border-radius: 20px;
+    width: 50rem;
+    border-right: none;
+    height: 50px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid;
+    width: fit-content;
+    border-color: var(--blue-color);
+    border-radius: 25px;
+    margin-left: 10rem;
+    margin-top: 135px;
+    margin-bottom: 135px;
+}
+
+.subscribe-btn{
+    background: var(--blue-color);
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+#Contact{
+    background-color: #f2c9c9;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}

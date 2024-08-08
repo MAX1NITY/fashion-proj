@@ -1,0 +1,57 @@
+#Footer{
+    background-color: #898989;
+    height: 50vh;
+    display: flex;
+}
+
+.links-footer{
+    font-size: 12px;
+    font-weight: 150;
+    margin-bottom: 30px;
+}
+
+.logo-handles{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11rem;
+}
+
+.handles{
+    margin-left: 3rem;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.x{
+    margin: 0 20px;
+    width: 35px
+}
+
+.IG{
+    margin: 0 20px;
+    width: 35px
+}
+
+.whatsapp{
+    margin: 0 20px;
+    width: 35px
+}
+
+.links-foot{
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+}
+
+.logo-foot{
+    width: 20rem;
+    margin-top: 30px;
+}
+
+.link1, .link2{
+    margin-top: 50px;
+}
+
+.link1{
+    margin-left: 300px;
+}

@@ -1,0 +1,7 @@
+#Header2{
+    min-height: 50vh;
+    max-height: 65vh;
+    background: url(./Header2.png);
+    background-size: cover;
+    background-position: center;
+}

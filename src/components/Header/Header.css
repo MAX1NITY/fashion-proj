@@ -1,0 +1,60 @@
+header {
+    min-height: 100vh;
+    background: url(../../assets/image1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header .wrapper{
+    position: relative;
+    height: 100vh;
+}
+
+header .cta{
+    position: absolute;
+    bottom: 70px;
+    right: 50px;
+    width: 624px;
+    height: 296px;
+    background: var(--light-red-color);
+    padding: 10px 30px;
+    text-align: left;
+}
+/* .shop-btn{
+    /* display: flex;
+    justify-content: flex-end; */
+    /* width: 100px;
+    height: 30px;
+} */
+
+header .cta .course-name{
+    font-weight: 600;
+    font-size: 29px;
+    color: white;
+}
+
+header .cta p{
+    font-size: 18px;
+    color: white;
+}
+
+header .cta .shop-btn{
+    border-radius: 8px;
+    background: var(--green-color);
+    padding: 12px 25px 12px 25px;
+    color: white;
+    /* display: grid;
+    justify-items: end; */
+    width: 180px;
+    text-align: right;
+    margin-left: 65%;
+    cursor: pointer;
+    transition: all 400ms ease;
+    /* width: 100px;
+    height: 100px; */
+}
+
+header .cta .shop-btn:hover{
+    background: #90ED7D;
+    transform: scale(1.10);
+}
